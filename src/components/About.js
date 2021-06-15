@@ -18,7 +18,7 @@ const About = () => (
           <img className='w-60 mx-auto' src='../../images/2-black.png' alt='' />
           <h1 className='text-3xl font-bold mt-6'>Years of experience</h1>
         </div>
-        <div className='flex flex-col mt-20 pb-20 sm:mt-0 sm:pb-0'>
+        <div className='flex flex-col mt-20 sm:mt-0 sm:pb-0'>
           <div className='mb-10'>
             <h1 className='text-gray-600'>Email:</h1>
             <h1 className='text font-semibold'>rubin.velcani@gmail.com</h1>
