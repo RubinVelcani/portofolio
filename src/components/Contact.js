@@ -31,20 +31,20 @@ const Contact = () => {
         <h1 className='text-2xl font-bold mb-14'>Get in touch or write me an email!</h1>
         <div className='flex flex-col justify-center md:flex-row'>
           <div className='flex flex-col items-center mb-10 md:mr-20'>
-            <img className='w-10'  src='../../images/email.png' alt=''/>
+            <img className='w-10' src='../../images/email.png' alt='' />
             <h1 className='text-xl text-gray-600 mt-2'>Email:</h1>
             <h1 className='text-lg font-semibold'>rubin.velcani@gmail.com</h1>
           </div>
           <div className='flex flex-col items-center mb-10'>
-          <img className='w-10' src='../../images/phone.png' alt=''/>
+            <img className='w-10' src='../../images/phone.png' alt='' />
             <h1 className='text-xl text-gray-600 mt-2'>Phone:</h1>
             <h1 className='text-lg font-semibold'>+355694629009</h1>
           </div>
         </div>
         <form method="post" name="rubin" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="rubin" />
           <div className='w-full max-w-screen-lg flex flex-col items-center bg-lightGray shadow-md text-xs text-gray mx-auto'>
             <div className='w-4/5 max-w-screen-sm flex flex-col text-left text-formGray mt-10 mb-16 mx-auto'>
+              <input type="hidden" name="form-name" value="rubin" />
               <label className='text-lg mr-auto mb-5'>Full Name</label>
               <input value={name} onChange={(e) => setName(e.target.value)} type='name' name='fullName' className='  ring-1 ring-gray-400 mb-4 py-4 px-4 outline-none focus-within:ring-blue-400' placeholder='Name' />
               {nameErr && <h3 className='text-red-400 pb-1 mb-10'>Please type a valid name</h3>}
