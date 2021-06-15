@@ -99,7 +99,7 @@ const Skills = () => (
       </div>
       <h1 className='text-xl font-bold mt-20 mb-16'>Familiar with the following</h1>
       <div className='grid grid-cols-3 gap-5'>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://firebase.google.com/'
           target='_blank'
           rel='noreferrer noopener'
@@ -107,7 +107,7 @@ const Skills = () => (
           <img className='' src='../../images/firebase.svg' alt='firebase' />
           <h1 className='text-lg font-semibold'>Firebase</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://graphql.org/'
           target='_blank'
           rel='noreferrer noopener'
@@ -115,7 +115,7 @@ const Skills = () => (
           <img className='' src='../../images/graphql.svg' alt='graphql' />
           <h1 className='text-lg font-semibold'>GraphQL</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://tailwindcss.com/'
           target='_blank'
           rel='noreferrer noopener'
@@ -123,7 +123,7 @@ const Skills = () => (
           <img className='' src='../../images/tailwind.svg' alt='tailwind' />
           <h1 className='text-lg font-semibold'>TailwindCSS</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://getbootstrap.com/'
           target='_blank'
           rel='noreferrer noopener'
@@ -131,7 +131,7 @@ const Skills = () => (
           <img className='' src='../../images/bootstrap.svg' alt='bootstrap' />
           <h1 className='text-lg font-semibold'>Bootstrap</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://www.figma.com/'
           target='_blank'
           rel='noreferrer noopener'
@@ -139,7 +139,7 @@ const Skills = () => (
           <img className='' src='../../images/figma.svg' alt='figma' />
           <h1 className='text-lg font-semibold'>Figma</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://www.adobe.com/products/photoshop.html'
           target='_blank'
           rel='noreferrer noopener'
@@ -147,7 +147,7 @@ const Skills = () => (
           <img className='' src='../../images/adobe-photoshop.svg' alt='photoshop' />
           <h1 className='text-lg font-semibold'>Photoshop</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://nodejs.org/'
           target='_blank'
           rel='noreferrer noopener'
@@ -155,7 +155,7 @@ const Skills = () => (
           <img className='' src='../../images/node-js.svg' alt='nodeJS' />
           <h1 className='text-lg font-semibold'>NodeJS</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://www.mongodb.com/'
           target='_blank'
           rel='noreferrer noopener'
@@ -163,7 +163,7 @@ const Skills = () => (
           <img className='' src='../../images/mongodb.svg' alt='mongoDB' />
           <h1 className='text-lg font-semibold'>MongoDB</h1>
         </a>
-        <a className='transform hover:scale-125 p-2 mx-auto'
+        <a className='transition transform hover:scale-125 ease-in-out duration-1000 p-2 mx-auto'
           href='https://www.gatsbyjs.com/'
           target='_blank'
           rel='noreferrer noopener'
