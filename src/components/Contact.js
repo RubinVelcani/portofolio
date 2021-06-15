@@ -33,12 +33,16 @@ const Contact = () => {
           <div className='flex flex-col items-center mb-10 md:mr-20'>
             <img className='w-10' src='../../images/email.png' alt='' />
             <h1 className='text-xl text-gray-600 mt-2'>Email:</h1>
-            <h1 className='text-lg font-semibold'>rubin.velcani@gmail.com</h1>
+            <a href='mailto:rubin.velcani@gmail.com'>
+              <h1 className='text-lg font-semibold'>rubin.velcani@gmail.com</h1>
+            </a>
           </div>
           <div className='flex flex-col items-center mb-10'>
             <img className='w-10' src='../../images/phone.png' alt='' />
             <h1 className='text-xl text-gray-600 mt-2'>Phone:</h1>
-            <h1 className='text-lg font-semibold'>+355694629009</h1>
+            <a href='tel:+355694629009'>
+              <h1 className='text-lg font-semibold'>+355694629009</h1>
+            </a>
           </div>
         </div>
         <form method="post" name="rubin" data-netlify="true" netlify-honeypot="bot-field">
