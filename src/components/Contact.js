@@ -2,7 +2,6 @@ import React, { useState } from "react"
 
 const Contact = () => {
 
-  const [sent, setSent] = useState(false)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -12,11 +11,6 @@ const Contact = () => {
 
   const validName = new RegExp('^[a-zA-Z ]+$')
   const validEmail = new RegExp('^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$')
-
-  const onSubmit = data => {
-    validateForm()
-    console.log(data)
-  }
 
   function validateForm() {
     if (!validName.test(name)) {
@@ -66,9 +60,6 @@ const Contact = () => {
             </div>
           </div>
         </form>
-        <div className={sent ? 'block' : 'hidden'}>
-          <h2 className='w-1/3 bg-blue-500 text-xl text-white text-center  shadow-lg py-3 mx-auto mt-16'>Success</h2>
-        </div>
       </div>
     </section>
   )

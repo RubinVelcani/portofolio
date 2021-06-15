@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='flex flex-col items-center px-5 py-20 md:flex-row md:items-start'>
           <a href='/'>
             <img className='w-32 md:mr-auto' src='../../images/logo-black.png' />
-          </a>s
+          </a>
           <div className='flex flex-col my-12 md:mt-0 md:mr-20 md:text-left'>
             <a className='button btn-4 mb-5' href='#home'>
               <h4 className='text-xl text-center py-1 px-2 span'>Home</h4>
