@@ -31,12 +31,12 @@ const Contact = () => {
         <h1 className='text-2xl font-bold mb-14'>Get in touch or write me an email!</h1>
         <div className='flex flex-col justify-center md:flex-row'>
           <div className='flex flex-col items-center mb-10 md:mr-20'>
-            <img className='w-10' src='../../images/email.png' alt=''/>
+            <img className='w-10' src='../../images/email.png' alt='' />
             <h1 className='text-xl text-gray-600 mt-2'>Email:</h1>
             <h1 className='text-lg font-semibold'>rubin.velcani@gmail.com</h1>
           </div>
           <div className='flex flex-col items-center mb-10'>
-          <img className='w-10' src='../../images/phone.png' alt=''/>
+            <img className='w-10' src='../../images/phone.png' alt='' />
             <h1 className='text-xl text-gray-600 mt-2'>Phone:</h1>
             <h1 className='text-lg font-semibold'>+355694629009</h1>
           </div>
