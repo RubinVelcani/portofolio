@@ -22,7 +22,7 @@ const SectionHome = ({ toggleMenu }) => {
           <div onClick={toggleMenu} className='absolute z-50 right-3 md:hidden'>
             <Hamburger direction='left' size='40' rounded='true' />
           </div>
-          <nav className='hidden justify-evenly md:flex'>
+          <nav className='hidden text-center justify-evenly md:flex'>
             <a className='button btn-4 mr-3' href='#home'>
               <h4 className='w-24 py-1 span'>Home</h4>
             </a>
