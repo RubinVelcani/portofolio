@@ -8,7 +8,7 @@ const About = () => (
     <div className='flex flex-col'>
       <h1 className='text-2xl mb-6'>Hi i'm <span className='font-bold border-b-2 border-mainYellow'>Rubin Velçani</span></h1>
       <p className='mb-20'>
-        I'm a web developer with a passion for wen design. I enjoy developing simple,
+        I'm a web developer with a passion for web design. I enjoy developing simple,
         clean and slick websites that provide real value to the end user.
         Tens of clients have procured exceptional results while working with me.
         Delivering work within time and budget which meets client's requirements is my moto.
