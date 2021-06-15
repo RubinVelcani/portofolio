@@ -32,6 +32,11 @@ const Footer = () => {
               <img className='w-12 mr-2' src='../../images/github.svg' alt='' /> GitHub</a>
           </div>
         </div>
+        <div className='p-2'>
+          <h1 className='border-t border-black text-sm text-left py-3'>
+            Rubin's Place, built with React and TailwindCSS
+          </h1>
+        </div>
       </div>
     </section>
   )
