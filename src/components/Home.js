@@ -14,7 +14,7 @@ const SectionHome = ({ toggleMenu }) => {
 
   return (
     <section id='home' className='bg-mainYellow pb-20 md:pb-0'>
-      <div className='w-full max-w-screen-lg mx-auto'>
+      <div className='w-full max-w-screen-lg pt-5 mx-auto'>
         <header className='relative w-full max-w-screen-xl flex items-center justify-between px-5 md:pb-20 mx-auto'>
           <a href='/'>
             <img className='w-16' src='../../images/logo-black.png' alt='logo' />
