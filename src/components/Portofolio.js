@@ -61,7 +61,7 @@ const Portofolio = () => {
         <h1 className='text-2xl font-bold mb-20'>Get to know my Work</h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-3'>
           {sites.map((site, i) => {
-            return (<Project title={site.title} image={site.image} site={site.site} description={site.description} />)
+            return (<Project title={site.title} image={site.image} site={site.site} description={site.description} key={i}/>)
           })}
         </div>
       </div>

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='w-full max-w-screen-xl mx-auto'>
         <div className='flex flex-col items-center px-5 py-20 md:flex-row md:items-start'>
           <a href='/'>
-            <img className='w-32 md:mr-auto' src='../../images/logo-black.png' />
+            <img className='w-32 md:mr-auto' src='../../images/logo-black.png' alt=''/>
           </a>
           <div className='flex flex-col my-12 md:mt-0 md:mr-20 md:text-left'>
             <a className='button btn-4 mb-5' href='#home'>
