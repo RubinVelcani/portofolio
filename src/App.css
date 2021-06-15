@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+.button::before, .button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: black;
+}
+
+.span::before, .span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: black;
+}
+.button:hover::before, .button:hover::after{
+  width: 100%;
+}
+.button:hover .span::before, .button:hover .span::after{
+  height: 100%;
+}
+
+.btn-4::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.3s;
+}
+.btn-4 .span::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.3s;
+}
+.btn-4::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.3s;
+}
+.btn-4 .span::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.3s;
+}

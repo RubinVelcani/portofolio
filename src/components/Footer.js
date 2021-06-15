@@ -5,22 +5,24 @@ const Footer = () => {
     <section className='bg-mainYellow'>
       <div className='w-full max-w-screen-xl mx-auto'>
         <div className='flex flex-col items-center px-5 py-20 md:flex-row md:items-start'>
-          <img className='w-32 md:mr-auto' src='../../images/logo-black.png' />
+          <a href='/'>
+            <img className='w-32 md:mr-auto' src='../../images/logo-black.png' />
+          </a>s
           <div className='flex flex-col my-12 md:mt-0 md:mr-20 md:text-left'>
-            <a href='#home'>
-              <h4 className='text-xl p-1 mb-4'>Home</h4>
+            <a className='button btn-4 mb-5' href='#home'>
+              <h4 className='text-xl text-center py-1 px-2 span'>Home</h4>
             </a>
-            <a href='#about'>
-              <h4 className='text-xl p-1 mb-4'>About Me</h4>
+            <a className='button btn-4 mb-5' href='#about'>
+              <h4 className='text-xl text-center py-1 px-2 span'>About Me</h4>
             </a>
-            <a href='#skills'>
-              <h4 className='text-xl p-1 mb-4'>Skills</h4>
+            <a className='button btn-4 mb-5' href='#skills'>
+              <h4 className='text-xl text-center py-1 px-2 span'>Skills</h4>
             </a>
-            <a href='#portofolio'>
-              <h4 className='text-xl p-1 mb-4'>Portofolio</h4>
+            <a className='button btn-4 mb-5' href='#portofolio'>
+              <h4 className='text-xl text-center py-1 px-2 span'>Portofolio</h4>
             </a>
-            <a href='#contact'>
-              <h4 className='text-xl p-1'>Contact</h4>
+            <a className='button btn-4' href='#contact'>
+              <h4 className='text-xl text-center p-1 px-2 span'>Contact</h4>
             </a>
           </div>
           <div className='flex flex-col'>
