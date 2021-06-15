@@ -41,7 +41,7 @@ const Contact = () => {
             <h1 className='text-lg font-semibold'>+355694629009</h1>
           </div>
         </div>
-        <form method="post" name="contact" netlify-honeypot="bot-field" data-netlify="true">
+        <form method="post" name="rubin" data-netlify="true">
           <div className='w-full max-w-screen-lg flex flex-col items-center bg-lightGray shadow-md text-xs text-gray mx-auto'>
             <div className='w-4/5 max-w-screen-sm flex flex-col text-left text-formGray mt-10 mb-16 mx-auto'>
               <input type="hidden" name="form-name" value="contact" />
