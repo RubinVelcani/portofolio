@@ -19,13 +19,13 @@ const Portofolio = () => {
     {
       title: 'Zengrowth',
       image: '../../images/zengrowth.png',
-      site: 'zengrowth-app.netlify.app',
+      site: 'https://zengrowth-app.netlify.app',
       description: 'Landing page and contact form'
     },
     {
       title: 'Chatty',
       image: '../../images/chatty.png',
-      site: 'chatty-node.netlify.app',
+      site: 'https://chatty-node.netlify.app',
       description: 'Live chat application built with React, NodeJS and Socket.io'
     },
     {
@@ -37,7 +37,7 @@ const Portofolio = () => {
     {
       title: 'Embroidery',
       image: '../../images/embroidery.png',
-      site: 'embroidery-app.netlify.app',
+      site: 'https://embroidery-app.netlify.app',
       description: 'Small business website with an active contact form'
     },
     {
