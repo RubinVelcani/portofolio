@@ -43,14 +43,14 @@ const Portofolio = () => {
     {
       title: 'PromoBazaar',
       image: '../../images/bazaar.png',
-      site: 'embroidery-app.netlify.app',
-      description: 'E-commerce based on artists and their artworks'
+      site: '',
+      description: 'E-commerce based on artists selling their designs and artworks (Not live)'
     },
     {
       title: 'ToysCenter',
       image: '../../images/store.png',
-      site: 'embroidery-app.netlify.app',
-      description: 'E-commerce'
+      site: '',
+      description: 'E-commerce (Not Live)'
     }
   ]
 
