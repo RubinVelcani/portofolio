@@ -6,10 +6,11 @@ const Project = ({ title, image, site, description, live }) => {
     <section className='relative mb-10'>
       <h1 className='text-2xl font-semibold mb-5'>{title}</h1>
       <a href={site}
+        {!live ? 'disabled' : ''}
         target='_blank'
         rel='noreferrer noopener'
       >
-        <img src={image} alt='' {!live ? disabled : ''}/>
+        <img src={image} alt=''/>
       </a>
       <h2 className='text-lg mt-5'>{description}</h2>
     </section>
