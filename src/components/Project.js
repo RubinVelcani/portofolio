@@ -6,7 +6,7 @@ const Project = ({ title, image, site, description, live }) => {
     <section className='relative mb-10'>
       <h1 className='text-2xl font-semibold mb-5'>{title}</h1>
       <a href={site}
-        {!live ? 'disabled' : ''}
+        disabled={live}
         target='_blank'
         rel='noreferrer noopener'
       >
