@@ -8,49 +8,58 @@ const Portofolio = () => {
       title: 'Socios',
       image: '../../images/socios.png',
       site: 'https://socios.netlify.app/',
-      description: 'A full stack Twitter clone built with React, MongoDB, GraphQL '
+      description: 'A full stack Twitter clone built with React, MongoDB, GraphQL ',
+      live: true
     },
     {
       title: 'Manus',
       image: '../../images/manus.png',
       site: 'https://manus-app.netlify.app/',
-      description: 'App for tradesmen looking for work, built with React and TailwindCSS'
+      description: 'App for tradesmen looking for work, built with React and TailwindCSS',
+      live: true
     },
     {
       title: 'Zengrowth',
       image: '../../images/zengrowth.png',
       site: 'https://zengrowth-app.netlify.app',
-      description: 'Landing page and contact form'
+      description: 'Landing page and contact form',
+      live: true
     },
     {
       title: 'Chatty',
       image: '../../images/chatty.png',
       site: 'https://chatty-node.netlify.app',
-      description: 'Live chat application built with React, NodeJS and Socket.io'
+      description: 'Live chat application built with React, NodeJS and Socket.io',
+      live: true
     },
     {
       title: 'mobileNBA',
       image: '../../images/mobileNBA.png',
       site: 'https://nbafullstack-860f8.web.app/',
-      description: 'NBA based fanpage where you can write articles and add videos to the feed. Mobile only design.'
+      description: 'NBA based fanpage where you can write articles and add videos to the feed. Mobile only design.',
+      live: true
     },
     {
       title: 'Embroidery',
       image: '../../images/embroidery.png',
       site: 'https://embroidery-app.netlify.app',
-      description: 'Small business website with an active contact form'
+      description: 'Small business website with an active contact form',
+      live: true
     },
     {
       title: 'PromoBazaar',
       image: '../../images/bazaar.png',
       site: '',
-      description: 'E-commerce based on artists selling their designs and artworks (Not live)'
+      description: 'E-commerce based on artists selling their designs and artworks (Not live)',
+      live: false
+
     },
     {
       title: 'ToysCenter',
       image: '../../images/store.png',
       site: '',
-      description: 'E-commerce (Not Live)'
+      description: 'E-commerce (Not Live)',
+      live: false
     }
   ]
 
@@ -61,7 +70,7 @@ const Portofolio = () => {
         <h1 className='text-2xl font-bold mb-20'>Get to know my Work</h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-3'>
           {sites.map((site, i) => {
-            return (<Project title={site.title} image={site.image} site={site.site} description={site.description} key={i}/>)
+            return (<Project title={site.title} image={site.image} site={site.site} description={site.description} key={i} live={site.live}/>)
           })}
         </div>
       </div>
