@@ -11,11 +11,11 @@ const Project = ({ title, image, site, description, live }) => {
         target='_blank'
         rel='noreferrer noopener'
       >
-        <img src={image} alt=''/>
+        <img src={image} alt={title}/>
       </a>
  ) : 
  (
-          <img src={image} alt=''/>
+          <img src={image} alt={title}/>
           )
 }
       <h2 className='text-lg mt-5'>{description}</h2>
