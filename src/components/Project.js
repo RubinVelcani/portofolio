@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Project = ({ title, image, site, description }) => {
+const Project = ({ title, image, site, description, live }) => {
 
   return (
     <section className='relative mb-10'>
@@ -9,7 +9,7 @@ const Project = ({ title, image, site, description }) => {
         target='_blank'
         rel='noreferrer noopener'
       >
-        <img src={image} alt='' />
+        <img src={image} alt='' {!live ? disabled : ''}/>
       </a>
       <h2 className='text-lg mt-5'>{description}</h2>
     </section>
