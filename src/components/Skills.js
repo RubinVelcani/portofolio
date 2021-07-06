@@ -16,7 +16,7 @@ const Skills = () => (
                   data-aos-offset="200"
                   data-aos-easing="ease-in"
                   data-aos-duration="800"
-                  className="w-11/12 bg-mainYellow py-1 rounded-full"></div>
+                  className="w-full bg-mainYellow py-1 rounded-full"></div>
               </div>
             </div>
             <div className='mb-5'>
