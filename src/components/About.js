@@ -6,7 +6,7 @@ const About = () => (
     <h1 className='max-w-max bg-mainYellow px-3 mb-3 mx-auto'>About Me</h1>
     <h1 className='text-2xl font-bold mb-14'>Get To Know Me More</h1>
     <div className='flex flex-col'>
-      <h1 className='text-2xl mb-6'>Hi i'm <span className='font-bold border-b-2 border-mainYellow'>Rubin Velçani</span></h1>
+      <h1 className='text-2xl mb-6'>Hi, I'm <span className='font-bold border-b-2 border-mainYellow'>Rubin Velçani</span></h1>
       <p className='mb-20'>
         I'm a web developer with a passion for web design. I enjoy developing simple,
         clean and slick websites that provide real value to the end user.
